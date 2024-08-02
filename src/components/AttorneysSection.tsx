@@ -3,7 +3,7 @@ import imgLayerCeo from '../img/layer & ceo.jpg';
 import imgLayerCivil from '../img/layer-civil-law.jpg';
 import imgCeo from '../img/ceo.jpg'
 import iconFacebook from '../img/icon-facebook.png';
-import iconInstagram from '../img/icon-instagram.png';
+import iconInstagram from '../img/instagram.png';
 import iconTwitter from '../img/icon-twitter.png';
 
 const AttorneysSection: React.FC = () =>{
@@ -24,14 +24,14 @@ const AttorneysSection: React.FC = () =>{
                         <h2 className="text-xl font-semibold">Ashley Fletcher</h2>
                         <p className="text-gray-500">LAWYER & CEO</p>
                     </div>
-                    <div className="card-information-redes-sociales flex justify-center mt-4 space-x-4">
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                    <div className="card-information-redes-sociales flex justify-center mt-4 space-x-2">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 flex items-center justify-center p-1">
                             <img src={iconFacebook} className="w-full h-full" alt="Facebook" />
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10  flex items-center justify-center p-1">
                             <img src={iconInstagram} className="w-full h-full" alt="Instagram" />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10  flex items-center justify-center p-1">
                             <img src={iconTwitter} className="w-full h-full" alt="Twitter" />
                         </a>
                     </div>
@@ -45,14 +45,14 @@ const AttorneysSection: React.FC = () =>{
                         <h2 className="text-xl font-semibold">Rodney Straton</h2>
                         <p className="text-gray-500">CEO</p>
                     </div>
-                    <div className="card-information-redes-sociales flex justify-center mt-4 space-x-4">
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                    <div className="card-information-redes-sociales flex justify-center mt-4 space-x-2">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10  flex items-center justify-center ">
                             <img src={iconFacebook} className="w-full h-full" alt="Facebook" />
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10  flex items-center justify-center">
                             <img src={iconInstagram} className="w-full h-full" alt="Instagram" />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10  flex items-center justify-center  ">
                             <img src={iconTwitter} className="w-full h-full" alt="Twitter" />
                         </a>
                     </div>
@@ -66,14 +66,14 @@ const AttorneysSection: React.FC = () =>{
                         <h2 className="text-xl font-semibold">Avie Beatron</h2>
                         <p className="text-gray-500">LAWYER CIVIL LAW</p>
                     </div>
-                    <div className="card-information-redes-sociales flex justify-center mt-4 space-x-4">
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                    <div className="card-information-redes-sociales flex justify-center mt-4 space-x-2">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10  flex items-center justify-center">
                             <img src={iconFacebook} className="w-full h-full" alt="Facebook" />
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10  flex items-center justify-center">
                             <img src={iconInstagram} className="w-full h-full" alt="Instagram" />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-7 h-7 flex items-center justify-center p-1 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10  flex items-center justify-center">
                             <img src={iconTwitter} className="w-full h-full" alt="Twitter" />
                         </a>
                     </div>

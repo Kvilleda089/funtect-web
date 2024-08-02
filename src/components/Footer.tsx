@@ -1,10 +1,43 @@
 import React from 'react';
+import iconFacebook from '../img/icon-facebook.png';
+import iconInstagram from '../img/instagram.png';
+import iconTwitter from '../img/icon-twitter.png';
+import iconYoute from '../img/icon-youtbe.png';
 
 const Footer: React.FC = () => {
   return (
     <>
       <footer className="bg-gray-900 text-white pt-10 pb-5">
+
+        <div className="container-consultation w-full p-6 flex justify-between items-center">
+          <div className="container-information flex-1">
+            <div className="text-left pt-10 pb-10">
+              <h1 className="text-3xl font-bold pt-10 py-10 ml-48">Litigade</h1>
+            </div>
+          </div>
+
+          <div className="flex-shrink-0 flex space-x-2 mr-80" >
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-16 h-16 flex items-center justify-center p-1 focus:outline-none">
+              <img src={iconFacebook} className="w-full h-full " alt="Facebook" />
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-16 h-16 flex items-center justify-center p-1  focus:outline-none">
+              <img src={iconInstagram} className="w-full h-full" alt="Instagram" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-16 h-16 flex items-center justify-center p-1  focus:outline-none">
+              <img src={iconTwitter} className="w-full h-full" alt="Twitter" />
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="w-16 h-16 flex items-center justify-center p-1  focus:outline-none">
+              <img src={iconYoute} className="w-full h-full" alt="YouTube" />
+            </a>
+          </div>
+        </div>
+
         <div className="max-w-6xl mx-auto px-4">
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-[100%] border-t border-gray-400 opacity-2 py-10"></div>
+            </div>
+          </div>
           <div className="flex flex-wrap justify-between">
 
             <div className="w-full sm:w-1/3 lg:w-1/5 mb-5 text-left">
