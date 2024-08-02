@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import backgroundImage from '../img/fondo-contac-us.jpg'
+import { Department } from "../interface/Department";
 
 const ContactSection: React.FC = () => {
+    const [departments, setDepartament] = useState<Department[]>([]);
+    const [hours, setHours] = useState<string[]>([]);
+
+    useEffect(() => {
+        const storeDepartament = localStorage.getItem("departaments");
+        const storeHours = localStorage.getItem('hours');
+        if (storeDepartament && storeHours) {
+            setDepartament(JSON.parse(storeDepartament));
+            setHours(JSON.parse(storeHours));
+        }
+
+    }, []);
+
     return (
         <>
             <div className="container-section relative flex flex-col lg:flex-row p-6 items-start w-full" style={{ backgroundImage: `url(${backgroundImage})`, backgroundPosition: 'right', backgroundSize: 'cover' }}>
@@ -29,9 +43,19 @@ const ContactSection: React.FC = () => {
                             <div className="flex flex-col lg:flex-row lg:space-x-4">
                                 <select className="form-select flex-1 mb-4 lg:mb-0 text-lg py-3 w-full rounded-borderInput">
                                     <option>Please Select</option>
+                                    {departments.map(department => (
+                                        <option key={department.id} value={department.id}>
+                                            {department.departament}
+                                        </option>
+                                    ))}
                                 </select>
                                 <select className="form-select flex-1 text-lg py-3 w-full rounded-borderInput">
-                                    <option>4:00 Available</option>
+                                    <option>Please Select Time</option>
+                                    {hours.map((hour, index) => (
+                                        <option key={index} value={hour}>
+                                            {hour}
+                                        </option>
+                                    ))}
                                 </select>
                             </div>
 
