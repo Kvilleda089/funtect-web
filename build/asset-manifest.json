@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/funtect-web/build/static/css/main.2c7d9554.css",
+    "main.js": "/funtect-web/build/static/js/main.1eb89d27.js",
+    "static/js/453.1d8f1430.chunk.js": "/funtect-web/build/static/js/453.1d8f1430.chunk.js",
+    "static/media/instagram.png": "/funtect-web/build/static/media/instagram.40c28f5f352e3ab3034e.png",
+    "static/media/icon-twitter.png": "/funtect-web/build/static/media/icon-twitter.057b7d000db92e0b9de0.png",
+    "static/media/icon-youtbe.png": "/funtect-web/build/static/media/icon-youtbe.718afc69b6d03e930a47.png",
+    "static/media/who-we-are.png": "/funtect-web/build/static/media/who-we-are.64a05fb8dc433077ae82.png",
+    "static/media/icon-facebook.png": "/funtect-web/build/static/media/icon-facebook.b9a6b88b91d673107c90.png",
+    "static/media/icon-balance.jpg": "/funtect-web/build/static/media/icon-balance.e092decef3d6281c897f.jpg",
+    "static/media/user.jpg": "/funtect-web/build/static/media/user.6750be948f0b579703e9.jpg",
+    "static/media/ceo.jpg": "/funtect-web/build/static/media/ceo.2b61700e1cf57c1138b2.jpg",
+    "static/media/fondo-contac-us.jpg": "/funtect-web/build/static/media/fondo-contac-us.a4750e3357ac7f32db79.jpg",
+    "static/media/fondo-gris.jpg": "/funtect-web/build/static/media/fondo-gris.78d200e469b449d54833.jpg",
+    "static/media/layer-civil-law.jpg": "/funtect-web/build/static/media/layer-civil-law.142a786aa6476a95503c.jpg",
+    "static/media/layer & ceo.jpg": "/funtect-web/build/static/media/layer & ceo.ce492b3646e1011fc586.jpg",
+    "static/media/icon-revision.png": "/funtect-web/build/static/media/icon-revision.82337c04626c8c60c580.png",
+    "static/media/icon-carrito-compra.png": "/funtect-web/build/static/media/icon-carrito-compra.65c4b71a67c78eff2450.png",
+    "index.html": "/funtect-web/build/index.html",
+    "main.2c7d9554.css.map": "/funtect-web/build/static/css/main.2c7d9554.css.map",
+    "main.1eb89d27.js.map": "/funtect-web/build/static/js/main.1eb89d27.js.map",
+    "453.1d8f1430.chunk.js.map": "/funtect-web/build/static/js/453.1d8f1430.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c7d9554.css",
+    "static/js/main.1eb89d27.js"
+  ]
+}
