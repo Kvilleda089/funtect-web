@@ -8,11 +8,13 @@ import PracticeAdviceSection from './components/PracticeAdviceSection';
 import AboutUsSection from './components/AboutUsSection';
 import AttorneysSection from './components/AttorneysSection';
 import ContactSection from './components/ContactSection';
+import backgroundGray from './img/fondo-gris.jpg'
+
 function App() {
   return (
     <div className="App">
       <Header/>
-      <div className='flex justify-between p-16'>
+      <div className='flex justify-between p-16' style={{ backgroundImage: `url(${backgroundGray})`, backgroundPosition: 'right', backgroundSize: 'cover' }}>
         <MainSection/>
         <FormAppointment/>
       </div>

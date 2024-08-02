@@ -8,7 +8,8 @@ const PracticeAdviceSection: React.FC = () => {
         <section className="section-container py-12">
             <div className="text-center mb-8">
                 <h2 className="section-information-title text-3xl font-semibold">Practice Advice</h2>
-                <p className="section-information-paragraph text-gray-600 mt-4">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+                <p className="section-information-paragraph text-gray-600 mt-4">Problems trying to resolve the conflict between</p>
+                <p className="section-information-paragraph text-gray-600 mt-4">the two major realms of Classical physics: Newtonian mechanics</p>
             </div>
             <div className="container-card flex justify-center space-x-4">
                 <div className="card w-80 bg-white rounded-lg shadow-md border border-borderColor">
