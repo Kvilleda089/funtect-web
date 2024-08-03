@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/funtect-web/build/static/css/main.2c7d9554.css",
-    "main.js": "/funtect-web/build/static/js/main.1eb89d27.js",
+    "main.css": "/funtect-web/build/static/css/main.06751b35.css",
+    "main.js": "/funtect-web/build/static/js/main.d1cf8abd.js",
     "static/js/453.1d8f1430.chunk.js": "/funtect-web/build/static/js/453.1d8f1430.chunk.js",
     "static/media/instagram.png": "/funtect-web/build/static/media/instagram.40c28f5f352e3ab3034e.png",
     "static/media/icon-twitter.png": "/funtect-web/build/static/media/icon-twitter.057b7d000db92e0b9de0.png",
@@ -18,12 +18,12 @@
     "static/media/icon-revision.png": "/funtect-web/build/static/media/icon-revision.82337c04626c8c60c580.png",
     "static/media/icon-carrito-compra.png": "/funtect-web/build/static/media/icon-carrito-compra.65c4b71a67c78eff2450.png",
     "index.html": "/funtect-web/build/index.html",
-    "main.2c7d9554.css.map": "/funtect-web/build/static/css/main.2c7d9554.css.map",
-    "main.1eb89d27.js.map": "/funtect-web/build/static/js/main.1eb89d27.js.map",
+    "main.06751b35.css.map": "/funtect-web/build/static/css/main.06751b35.css.map",
+    "main.d1cf8abd.js.map": "/funtect-web/build/static/js/main.d1cf8abd.js.map",
     "453.1d8f1430.chunk.js.map": "/funtect-web/build/static/js/453.1d8f1430.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c7d9554.css",
-    "static/js/main.1eb89d27.js"
+    "static/css/main.06751b35.css",
+    "static/js/main.d1cf8abd.js"
   ]
 }
