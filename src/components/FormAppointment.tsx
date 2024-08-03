@@ -10,7 +10,7 @@ const FormAppointment: React.FC = () => {
     useEffect(() => {
         const fetchDepartments = async () => {
             try {
-                const response = await fetch('https://run.mocky.io/v3/0b4c030a-a8f3-4b5e-bd04-dd3ce7968516');
+                const response = await fetch('https://101a5668-2bc7-42c3-8f9e-b612923bc8f2.mock.pstmn.io/api/departaments');
                 if (!response.ok) {
                     throw new Error('Lo sentimos, ocurrió un error. Vuelva a intentarlo.');
                 }

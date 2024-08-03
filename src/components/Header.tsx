@@ -27,7 +27,8 @@ const Header: React.FC = () => {
             <input
               type="text"
               placeholder="Buscar"
-              className="border border-gray-300 rounded-md p-2 pr-10"
+              className="border-b border-gray-300 focus:outline-none focus:ring-0 placeholder-black placeholder-font-bold text-black"
+              style={{ border: 'none', borderBottom: '1px solid #D1D5DB', backgroundColor: 'transparent' }}
             />
             <img src={iconSearch} className="w-6 h-6 absolute right-2" alt="Buscar" />
           </div>
