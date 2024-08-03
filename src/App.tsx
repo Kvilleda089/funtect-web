@@ -3,7 +3,6 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import MainSection from './components/MainSection';
-import FormAppointment from './components/FormAppointment';
 import PracticeAdviceSection from './components/PracticeAdviceSection';
 import AboutUsSection from './components/AboutUsSection';
 import AttorneysSection from './components/AttorneysSection';
@@ -14,16 +13,15 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <div className='flex justify-between p-16' style={{ backgroundImage: `url(${backgroundGray})`, backgroundPosition: 'right', backgroundSize: 'cover' }}>
+      <div className='flex justify-between' style={{ backgroundImage: `url(${backgroundGray})`, backgroundPosition: 'right', backgroundSize: 'cover' }}>
         <MainSection/>
-        <FormAppointment/>
       </div>
 
       <div className='flex justify-center'>
         <PracticeAdviceSection/>
       </div>
 
-      <div className='flex justify-center'>
+      <div className='flex justify-center '>
         <AboutUsSection/>
       </div>
 
