@@ -1,8 +1,12 @@
 import React from "react";
 import '../styles/MainSection.css'
 import FormAppointment from "./FormAppointment";
+import AppointmentService from "../services/appointment.service";
 
 const MainSection: React.FC = () =>{
+    const handleAppointmentSaved = () => {
+        console.log("Appointment saved!");
+    };
     return (
         <>
             <div className="container-sections w-full flex flex-col lg:flex-row justify-between">
@@ -19,7 +23,10 @@ const MainSection: React.FC = () =>{
     
                 <div className="container-formAppointment py-10 lg:py-40 lg:mr-40">
                     <div className="formAppointment">
-                        <FormAppointment />
+                        <AppointmentService onAppointmentSaved={handleAppointmentSaved}>
+                            <FormAppointment />
+                        </AppointmentService>
+                        
                     </div>
                 </div>
             </div>

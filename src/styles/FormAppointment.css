@@ -35,6 +35,7 @@
     padding: 0.5rem;
     border: 1px solid #e2e8f0;
     background-color: #F9F9F9;
+    box-sizing: border-box;
 }
 
 .form-button{
@@ -46,3 +47,16 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.relative{
+    width: 100%;
+}
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+.react-datepicker__input-container {
+    width: 100% !important;
+}
+ 
